@@ -1,1 +1,8 @@
-
+I learned about writing a console program, a notebook, and a Streamlit dashboard
+that all do the same tip calculation. Honestly it was faster for me to just do the
+math right in console.py and dashboard.py instead of importing bill.py, and the
+console app gives the right answers. Where I struggled was Streamlit — my dashboard
+runs but the integration test fails and I'm not sure why, since the numbers look
+right on the page. I'd like more practice reading the test file so I can tell what
+it is actually checking for (I think it wants st.metric?), and I should probably go
+back and reuse the bill.py functions so I'm not repeating the formulas.
